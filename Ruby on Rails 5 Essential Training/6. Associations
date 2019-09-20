@@ -1,0 +1,9 @@
+Relationship types
+One-to-one associations
+One-to-many associations
+belongs_to presence validation
+Many-to-many associations: Simple
+Many-to-many associations: Rich
+Traverse a rich association
+Chapter Quiz
+5 questions
