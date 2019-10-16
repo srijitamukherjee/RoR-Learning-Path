@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 module Hema
-  class Power
+  module Power
     def self.pow(num, power)
       result = 1
       if power >= 0
-        for i in (1..power) do
-          result *= num
-        end
+        power.times {result *= num}
+        #  result *= num
+      #  end
       else
         result = 1.0 / pow(num, -power)
       end
